@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="texto.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculadora em JavaScript</h1>
+    <label>Digite o primeiro numero</label>
+    <input type="number" id="num1">
+    <br>
+    <label>Digite o segundo numero</label>
+    <input type="number" id="num2">
+    <br>
+    <select id="operacao">
+        <option value="+" id="adicao">+</option>
+        <option value="-" id="subtracao">-</option>
+        <option value="/" id="divisao">/</option>
+        <option value="*" id="multiplicacao">*</option>
+    </select>
+    <label> selecione uma operacao</label>
+    <button onclick="calcular()">Calcular</button>
+    <p id="resultado"></p>
+    <script src="texto.js"></script>
+
+</body>
+</html>
